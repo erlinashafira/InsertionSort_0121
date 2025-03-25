@@ -17,7 +17,7 @@ if (n <= 20)
 }
 else
 {
-    cout << "\nArray yang anda masukkan maksimal 2 Elemen,\n"; // Menampilkan Pesan jika data lebih dari 20
+    cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n"; // Menampilkan Pesan jika data lebih dari 20
 }
 }
 cout << endl; // Membuat jarak per baris program 
@@ -27,12 +27,12 @@ cout << "======================" << endl;
 
 for (int i = 0; i < n; i++)
 {
-    cout <, "Data ke-" << (i +1) << ": "; // Memasukkan atau menginputkan nilai data n
+    cout << "Data ke-" << (i + 1) << ": "; // Memasukkan atau menginputkan nilai data n
     cin >> arr[i]; // Myimpan nilai data n kedalam array arr
 }
 }
 
-void inseertionSort()
+void insertionSort()
 { // Procedure Insertionsort
 
     int temp; // Membuat variable data temporer atau penyimpanan sementara
@@ -66,7 +66,7 @@ void display()
 
     for (int j = 0; j < n; j++)
     { // Looping dengan j dimulai dari 0 hingga n-1
-        cout << arr[j] << ensl; // Output ke layar
+        cout << arr[j] << endl; // Output ke layar
     }
     cout << endl; // Output garis kosong
 }
