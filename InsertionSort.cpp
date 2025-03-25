@@ -7,7 +7,7 @@ int n; // Mmembuat Variable inputan n
 void input()
 { // Procedure Input
     while (true)
-
+{
 cout << "Masukkan Jumlah Data Array : "; //membuat Inputan jumlah element Array
 cin >> n; // memanggil vaariable inputan n
 
@@ -24,3 +24,10 @@ cout << endl; // Membuat jarak per baris program
 cout << "======================" << endl;
 cout << "Masukkan Element Array" << endl;
 cout << "======================" << endl;
+
+for (int i = 0; i < n; i++)
+{
+    cout <, "Data ke-" << (i +1) << ": "; // Memasukkan atau menginputkan nilai data n
+    cin >> arr[i]; // Myimpan nilai data n kedalam array arr
+}
+}
