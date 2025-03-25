@@ -51,5 +51,22 @@ while (j >= 0 && arr[j] > temp) // Step 4
     j--; // Step 4b
 }
 
+arr[j + 1] = temp; // Step 5
 }
+}
+
+void display()
+{
+    cout << endl; // Output baris kosong
+    cout << "==================================" << endl;
+    cout << "Total Passs = " << n - 1 << endl; // count element movement
+    cout << "==================================" << endl; // Output ke layar
+    cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+    cout << "==================================" << endl; // Output ke laya
+
+    for (int j = 0; j < n; j++)
+    { // Looping dengan j dimulai dari 0 hingga n-1
+        cout << arr[j] << ensl; // Output ke layar
+    }
+    cout << endl; // Output garis kosong
 }
